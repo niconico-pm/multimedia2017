@@ -4,7 +4,7 @@
 + ssh root@server-ip
 
 ## 設定ファイルのダウンロードとビルド
-+ git clone https://github.com/niconico-pm/multimedia-2017.git multi
++ git clone https://github.com/niconico-pm/multimedia2017.git multi
 + cd multi
 + docker build --rm -t multi .
  + 時間かかります。最後に下記が出たら正常終了。エラーが出たら、もう時間をおいてから、もう一度やってみる。
