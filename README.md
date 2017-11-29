@@ -15,6 +15,7 @@ dockerXX:~#
 ```
 
 + docker run -d --name multi01 -p 80:80 -v /root/export:/export -e "TZ=Asia/Tokyo" multi /run.sh
+ + `-p`と`-v`は環境にあわせて適宜良い感じにしてください。
 
 
 ## 確認
