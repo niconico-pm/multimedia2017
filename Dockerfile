@@ -4,7 +4,7 @@ MAINTAINER ishiguro <ishiguro@info.mie-u.ac.jp>
 RUN yum -y update
 RUN yum install -y epel-release
 RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-RUN yum install -y gcc httpd httpd-devel emacs wget unzip git zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline tar
+RUN yum install -y gcc httpd httpd-devel emacs wget unzip git zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline nkf tar
 RUN yum install -y --enablerepo=remi,remi-php71 php php-devel php-mbstring php-pdo php-gd php-cli php-xml
 RUN yum clean all
 
